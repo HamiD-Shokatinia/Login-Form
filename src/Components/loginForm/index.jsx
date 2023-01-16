@@ -1,10 +1,13 @@
 import { AuthenticationForm } from "./component/AuthenticationForm";
 import Footer from "./component/Footer";
+import Slider from "./component/slider";  
 
 function LoginForm() {
   return (
     <div style={{ display: "flex", width: "100%", minHeight: "100vh" }}>
-      <div style={{ backgroundColor: "lightgrey", width: "40%"  }}>hello</div>
+      <div style={{ backgroundColor: "#f6f6f6", width: "40%" }}>
+        <Slider />
+      </div>
       <div
         style={{
           backgroundColor: "white",
@@ -12,11 +15,11 @@ function LoginForm() {
           alignItems: "center",
           display: "flex",
           width: "60%",
-          position:'relative'
+          position: "relative",
         }}
       >
         <AuthenticationForm></AuthenticationForm>
-       <Footer></Footer>
+        <Footer></Footer>
       </div>
     </div>
   );
