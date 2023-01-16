@@ -2,35 +2,38 @@ import { Carousel } from "@mantine/carousel";
 import { Center, Image, Space, Text } from "@mantine/core";
 import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
-import Slider1 from "../../../asset/images/image1.png";
-import Slider2 from "../../../asset/images/image2.png";
-import Slider3 from "../../../asset/images/image3.png";
-import Slider4 from "../../../asset/images/image4.png";
+import Slider1 from "../../asset/images/image1.png";
+import Slider2 from "../../asset/images/image2.png";
+import Slider3 from "../../asset/images/image3.png";
+import Slider4 from "../../asset/images/image4.png";
+
+const title = "Welcome to Back!";
+const text = "start managing your finance faster and better";
 
 const assets = [
   {
     src: Slider1,
-    title: "Welcome to Back!",
-    text: "start managing your finance faster and better",
-    sunText: "start managing your finance faster and better",
+    title: title,
+    text: text,
+    sunText: text,
   },
   {
     src: Slider2,
-    title: "Welcome to Back!",
-    text: "start managing your finance faster and better",
-    sunText: "start managing your finance faster and better",
+    title: title,
+    text: text,
+    sunText: text,
   },
   {
     src: Slider3,
-    title: "Welcome to Back!",
-    text: "start managing your finance faster and better",
-    sunText: "start managing your finance faster and better",
+    title: title,
+    text: text,
+    sunText: text,
   },
   {
     src: Slider4,
-    title: "Welcome to Back!",
-    text: "start managing your finance faster and better",
-    sunText: "start managing your finance faster and better",
+    title: title,
+    text: text,
+    sunText: text,
   },
 ];
 
@@ -54,7 +57,8 @@ export default function Slider() {
           transition: "width 250ms ease",
 
           "&[data-active]": {
-            width: 20,
+            width: 5,
+            borderBlock: 10,
           },
         },
       }}

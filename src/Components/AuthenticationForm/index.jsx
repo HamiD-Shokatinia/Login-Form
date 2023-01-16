@@ -39,7 +39,7 @@ export function AuthenticationForm(props) {
   return (
     <Paper radius="md" p="xl" style={{ width: "420px" }} {...props}>
       <Text size="lg" weight={"bold"}>
-        Welcome to Back!
+        Welcome Back!
       </Text>
       <Space h="xs" />
       <Text size="xs" c="dimmed" weight={"normal"}>
@@ -107,10 +107,10 @@ export function AuthenticationForm(props) {
         />
         <Space h="lg" />
         <Group grow mb="md" mt="md">
-          <GoogleButton size="md" radius="10px">
+          <GoogleButton >
             Google
           </GoogleButton>
-          <FacebookButton size="md" radius="10px">
+          <FacebookButton >
             Facebook
           </FacebookButton>
         </Group>

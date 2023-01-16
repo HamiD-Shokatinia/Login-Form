@@ -1,6 +1,6 @@
-import { AuthenticationForm } from "./component/AuthenticationForm";
-import Footer from "./component/Footer";
-import Slider from "./component/slider";  
+import { AuthenticationForm } from "../../Components/AuthenticationForm";
+import Footer from "../../Components/Footer";
+import Slider from "../../Components/slider";
 
 function LoginForm() {
   return (

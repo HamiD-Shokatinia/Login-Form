@@ -4,6 +4,8 @@ import { FacebookIcon } from "./FacebookIcon";
 export function FacebookButton(props) {
   return (
     <Button
+      size="md"
+      radius="10px"
       leftIcon={<FacebookIcon />}
       sx={(theme) => ({
         backgroundColor: "#4267B2",
